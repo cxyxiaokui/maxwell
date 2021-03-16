@@ -1,0 +1,21 @@
+site_name: Maxwell's Daemon
+theme:
+  name: mkdocs
+  custom_dir: maxwell_theme
+extra_css:
+  - maxwell.css
+nav:
+  - 'Quick Start': 'quickstart.md'
+  - 'Configuration':
+    - 'Reference': 'config.md'
+    - 'Producers': 'producers.md'
+    - 'Filtering': 'filtering.md'
+    - 'Bootstrapping': 'bootstrapping.md'
+    - 'Data Format': 'dataformat.md'
+    - 'Encryption': 'encryption.md'
+    - 'Monitoring': 'monitoring.md'
+    - 'High Availability': 'high_availability.md'
+    - 'Embedding': 'embedding.md'
+    - 'Internals': 'schemas.md'
+    - 'Compatibility': 'compat.md'
+  - 'Changelog': 'changelog.md'
