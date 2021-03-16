@@ -33,11 +33,13 @@ public class MaxwellMysqlConfig {
 		this.user = null;
 		this.password = null;
 		this.sslMode = null;
-
 		this.jdbcOptions = new HashMap<>();
 		this.jdbcOptions.put("zeroDateTimeBehavior", "convertToNull");
 		this.jdbcOptions.put("connectTimeout", String.valueOf(connectTimeoutMS));
 		this.jdbcOptions.put("allowPublicKeyRetrieval", "true");
+		this.jdbcOptions.put("serverTimezone", "GMT+8");
+		this.jdbcOptions.put("useUnicode", "true");
+		this.jdbcOptions.put("useSSL", "true");
 	}
 
 	public MaxwellMysqlConfig(String host, Integer port, String database, String user, String password,
