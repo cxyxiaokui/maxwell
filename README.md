@@ -1,3 +1,5 @@
+该项目是基于 MaxWell 1.92.2 版本，只要是修改全量同步以及增量同步时区 BUG。
+
 <div id="maxwell-header">
 </div>
 
